@@ -1,0 +1,21 @@
+{
+    "name": "aufccs/ipt10-lab6",
+    "description": "A simple PHP project using Composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\Ipt10Lab6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JV"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^3.7",
+        "fakerphp/faker": "^1.23"
+    }
+}
